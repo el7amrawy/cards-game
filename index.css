@@ -1,0 +1,67 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  padding: 20px;
+}
+
+.header-cont {
+  display: flex;
+  justify-content: center;
+}
+
+.input-cont {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.input-cont * {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.status-cont {
+  display: flex;
+  justify-content: space-around;
+}
+
+.ground-cont {
+  padding: 20px;
+  text-align: center;
+}
+
+.ground {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+}
+
+.players-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.p1-cont,
+.p2-cont {
+  padding: 20px;
+}
+
+.p1,
+.p2 {
+  display: flex;
+  justify-content: center;
+}
+
+.card-cont {
+  width: 100px;
+  margin: 10px;
+  cursor: pointer;
+}
+.card-cont img {
+  width: 100%;
+}
